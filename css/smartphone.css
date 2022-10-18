@@ -1,0 +1,195 @@
+@media screen and (max-width: 768px) {
+
+    header nav {
+        flex-direction: column;
+        height: 100px;
+    }
+
+    header nav img {
+        margin: 21px auto 0;
+        padding: 0;
+    }
+
+    header nav span {
+        width: 100%;
+        display: flex;
+        text-align: center;
+        padding: 0;
+    }
+
+    header nav span a {
+        height: 25px;
+        width: 50%;
+        margin: 0;
+        padding: 0;
+    }
+
+    header nav span a:link, header nav span a:visited {
+        border: 0;
+        border-bottom: 3px solid var(--background-color);
+
+    }
+
+    header nav span a:hover, header nav span a:active {
+        border: 0;
+        border-bottom: 3px solid var(--primary-color);
+        color: var(--primary-color);
+    }
+
+    #find h2 {
+        margin: 31px 57px 0 20px;
+        padding: 0;
+        text-align: justify;
+    }
+
+    #find p {
+        margin: 13px 0 0 20px;
+    }
+
+    #find form {
+        width: 80%;
+        margin: 36px 20px 0 22px;
+    }
+
+    #find form input {
+        width: 60%;
+    }
+
+    #find form div button:first-of-type {
+        visibility: hidden;
+    }
+
+    #find form div button:last-of-type {
+        visibility: visible;
+    }
+
+    #find form div button {
+        width: 49px;
+    }
+
+    #find > div:first-of-type {
+        flex-wrap: wrap;
+        margin: 34px 0 0 20px;
+    }
+
+    #find > div:last-of-type {
+        flex-wrap: nowrap;
+        margin: 40px 0 0 20px;
+    }
+
+    #find > div:first-of-type button {
+        font-size: 12px;
+    }
+
+    #main-container {
+        flex-direction: column-reverse;
+        flex-wrap: wrap;
+    }
+
+    #popular {
+        width: 100%;
+        margin: 40px 0 0 0;
+        border-radius: 0;
+    }
+
+    .card350-250 {
+        margin-left: 0;
+        margin-right: 20px;
+        width: 100%;
+    }
+
+    .card350-250 > div:last-of-type {
+        margin: 10px 5px 0 10px;
+    }
+
+    .card350-250 > div:last-of-type h3 {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .card350-250 > div:last-of-type p{
+        width: 100%;
+        font-size: 13px;
+    }
+
+    .card350-250 > div:last-of-type > div {
+        margin-top: 10px;
+    }
+
+
+    #accommodation {
+        margin: 0;
+        background-color: #fff;
+        width: 100%;
+    }
+
+    #accommodation h2 {
+        margin-bottom: 18px;
+        margin-left: 20px;
+    }
+
+    #accommodation section {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        row-gap: 23px;
+        margin: 0 20px 0 20px;
+    }
+
+    .card250-200 {
+        width: 100%;
+        margin: 0;
+    }
+
+    .card250-200 img {
+        width: 100%;
+    }
+
+    #accommodation button {
+        background-color: white;
+        margin: 31px 0 0 20px;
+        width: 110px;
+        text-align: left;
+    }
+
+    #activities {
+        margin: 0;
+        width: 100%;
+    }
+
+    #activities h2 {
+        margin: 31px 0 0 20px;
+    }
+
+    #activities section {
+        margin: 0 20px 0 20px;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .card450-300 {
+        width: 100%;
+    }
+
+    #activities > section > a:first-of-type {
+        margin-top: 30px;
+    }
+
+    .card450-300 img {
+        width: 100%;
+    }
+
+    footer {
+        margin: 49px 0 0 0;
+        flex-direction: column;
+    }
+
+    footer section:first-of-type {
+        margin: 45px 0 0 30px;
+    }
+
+    footer section {
+        margin: 45px 0 0 30px;
+    }
+
+}
