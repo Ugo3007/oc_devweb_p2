@@ -103,6 +103,10 @@ header nav span a:active {
     font-weight: bold;
 }
 
+#find form div button:hover {
+    cursor: pointer;
+}
+
 #find > div:first-of-type {
     display: flex;
     align-items: center;
@@ -125,6 +129,7 @@ header nav span a:active {
 
 #find > div:first-of-type button:hover{
     background-color: var(--secondary-color);
+    cursor: pointer;
 }
 
 #find > div:first-of-type button i {
@@ -347,7 +352,7 @@ header nav span a:active {
 #activities section {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     gap: 43px;
 }
 
