@@ -428,11 +428,15 @@ footer section ul li a:hover, footer section ul li a:active {
 
 @media screen and (max-width: 1300px) and (min-width: 993px) {
     #accommodation > section > a {
-        flex-basis: calc(50% - 55px);
+        flex-basis: calc(50% - 20px);
     }
 
     .card250-200 {
         height: 230px;
+    }
+
+    footer section {
+        margin-right: 150px;
     }
 }
 
