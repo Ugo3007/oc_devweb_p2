@@ -446,7 +446,28 @@ footer section ul li a:hover, footer section ul li a:active {
     }
 }
 
-@media screen and (max-width: 1400px) and (min-width: 1131px) {
+@media screen and (max-width: 1385px) and (min-width: 1270px) {
+    #activities section a {
+        width: 250px;
+        height: 300px;
+    }
+
+    .card450-300 {
+        width: 250px;
+        height: 300px;
+    }
+
+    .card450-300 img {
+        width: 100%;
+        height: 220px;
+    }
+
+    .card450-300 h3 {
+        margin: 8px 5px 0 15px;
+    }
+}
+
+@media screen and (max-width: 1270px) and (min-width: 1131px) {
     #activities section a {
         width: 220px;
         height: 300px;

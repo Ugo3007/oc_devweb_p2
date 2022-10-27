@@ -37,7 +37,7 @@
     }
 
     #find h2 {
-        margin: 31px 57px 0 20px;
+        margin: 31px 50px 0 20px;
         padding: 0;
         text-align: justify;
     }
@@ -70,11 +70,16 @@
     #find > div:first-of-type {
         flex-wrap: wrap;
         margin: 34px 0 0 20px;
-
+        gap: 20px;
     }
 
     #find > div:first-of-type h3 {
         width: 100%
+    }
+
+    #find > div:first-of-type button {
+        display: flex;
+        align-items: center;
     }
 
     #find > div:first-of-type button i {
